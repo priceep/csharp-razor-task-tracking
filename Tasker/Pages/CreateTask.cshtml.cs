@@ -22,7 +22,7 @@ namespace Tasker.Pages
 
         public IActionResult OnPost()
         {
-            RedirectToPage("Index");
+            return RedirectToPage("Index");
         }
     }
 }
